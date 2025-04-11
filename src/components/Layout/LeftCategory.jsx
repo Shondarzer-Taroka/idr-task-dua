@@ -9,8 +9,8 @@ import { FaFlask } from 'react-icons/fa';
 
 const LeftCategory = () => {
   return (
-    <div className=" bg-gray-50 p-4 rounded-lg">
-      <h1 className="text-xl font-semibold mb-4">Dua Page</h1>
+    <div className="w-fit bg-gray-50 p-4 rounded-lg">
+  
 
       {/* Categories Header */}
       <div className="bg-green-500 text-white text-center py-2 rounded-md font-medium mb-3">
