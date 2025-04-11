@@ -1,8 +1,10 @@
 import LeftSide from "../Layout/LeftSide";
 
+
+
 const Homepage = () => {
     return (
-        <div className="bg-[#24375c]">
+        <div className="bg-[#f7f8fa]">
             <LeftSide/>
         </div>
     );
