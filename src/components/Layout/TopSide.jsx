@@ -46,13 +46,17 @@
 
 
 
-import { FaSearch, FaChevronDown } from "react-icons/fa";
+import { FaSearch, FaChevronDown, FaRegMinusSquare } from "react-icons/fa";
 
-const TopSide = ({ onToggleSettings }) => {
+const TopSide = ({ onToggleSettings,onToggleCategory }) => {
   return (
     <div className="w-full bg-gray-50 px-6 py-3 flex justify-between items-center">
+        <div className="flex gap-5 items-center">
+        <FaRegMinusSquare className="block lg:hidden" onClick={onToggleCategory}/>
+        <h1 className="text-xl font-semibold text-gray-800">Dua Page</h1>
+        </div>
       {/* Title */}
-      <h1 className="text-xl font-semibold text-gray-800">Dua Page</h1>
+     
 
       {/* Search Input */}
       <div className="flex items-center bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">

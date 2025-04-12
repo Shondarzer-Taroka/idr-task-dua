@@ -51,7 +51,7 @@ import { FaHandsHelping, FaHome, FaTh, FaLightbulb, FaBookmark, FaFlask, FaSearc
 
 const LeftIconsAndCategory = () => {
   return (
-    <div className="flex flex-col justify-between items-center bg-white rounded-xl py-6 px-2 w-[70px] h-screen shadow-md">
+    <div className=" flex  flex-col justify-between items-center bg-white rounded-xl py-6 px-2 w-[70px] h-screen shadow-md">
       {/* Top button */}
       <button className="bg-green-500 text-white p-3 rounded-lg shadow-md">
         <FaHandsHelping size={24} />
